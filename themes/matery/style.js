@@ -54,6 +54,25 @@ const Style = () => {
         scrollbar-color: #88E0DA transparent;
       }
 
+      /* 导航栏签颜色 */
+#sticky-nav.bg-indigo-700 {
+    background-color: #CEE87C;
+}
+
+/* 导航栏标题文字颜色改为白色-deepseek */
+.text-lg.p-1\.5.rounded.dark\:border-white.hover\:scale-110.transform.duration-200 {
+color: #ffffff;
+}
+
+/* 统一修改导航菜单所有文字颜色为白色 */
+.menu-link {
+color: #ffffff;
+}
+/* 统一修改页脚所有文字颜色为白色 */
+footer.bg-indigo-700 {
+color: #ffffff;
+}
+
       ${themeConsoleStyle('matery', CONFIG)}
   `}</style>
   )
