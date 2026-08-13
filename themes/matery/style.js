@@ -46,12 +46,12 @@ const Style = () => {
       }
 
       ::-webkit-scrollbar-thumb {
-        background-color: #4338ca;
+        background-color: #CAE36E;
       }
 
       * {
         scrollbar-width: thin;
-        scrollbar-color: #4338ca transparent;
+        scrollbar-color: #88E0DA transparent;
       }
 
       ${themeConsoleStyle('matery', CONFIG)}
