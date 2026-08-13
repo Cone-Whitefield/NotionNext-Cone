@@ -73,6 +73,86 @@ footer.bg-indigo-700 {
 color: #ffffff;
 }
 
+/* 夜间模式导航栏签颜色 */
+.dark div#sticky-nav {
+ background-color: #CEE87C;
+}
+
+
+/* 首页开始阅读按钮 */
+.glassmorphism.w-40.z-40 {
+    background-color: #CEE87C;
+    border: none;
+}
+
+/* 标签颜色 */
+a.cursor-pointer.bg-indigo-700 {
+    background-color: #88E0DA;
+}
+
+/* 移动端侧边栏 */
+#side-bar>.bg-indigo-700 {
+    background-color: #CEE87C;
+}
+
+/* 移动端侧边栏菜单 */
+nav div:hover,li:hover {
+    background-color: #88E0DA!important;
+}
+
+/* 悬浮菜单 */
+.right-2 .bg-indigo-700 {
+    background-color: #88E0DA;
+}
+
+/* 目录进度条 */
+.h-4.bg-indigo-400 {
+    background-color: #88E0DA;
+}
+
+/* 目录文字高亮 */
+nav .text-green-500{
+    color: #88E0DA;
+}
+
+/* 网站页脚 */ 
+footer.bg-indigo-700{
+    background-color: #CEE87C;
+}
+
+/* 翻页按钮 */
+button.bg-indigo-700{
+    background-color: #88E0DA;
+}
+
+/* 文章页隐藏发布时间 */
+#article-wrapper > div.wow.fadeInUp.px-10 > section > div.flex.flex-wrap.gap-3.mt-5.text-sm > a {
+  display: none;
+}
+
+
+/* 文章页隐藏更新时间 */
+#article-wrapper > div.wow.fadeInUp.px-10 > section > div.flex.flex-wrap.gap-3.mt-5.text-sm > span.whitespace-nowrap {
+  display: none;
+}
+
+
+/* 文章页隐藏阅读次数 */
+#article-wrapper .busuanzi_container_page_pv {
+  display: none ！important;
+}
+
+/* 文章页隐藏字数 */
+#wordCountWrapper > span:nth-child(1){
+ display: none !important;
+}
+
+/* 文章页隐藏阅读时长 */
+#wordCountWrapper > span:nth-child(2){
+ display: none;
+}
+
+
       ${themeConsoleStyle('matery', CONFIG)}
   `}</style>
   )
