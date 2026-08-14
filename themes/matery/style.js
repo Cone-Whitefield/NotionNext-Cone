@@ -62,7 +62,7 @@ const Style = () => {
 
 /* 网站标题（“lzzd略”）变白 */
 .text-lg.p-1\.5.rounded.dark\:border-white.hover\:scale-110.transform.duration-200 {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 /* 搜索图标变白 */
