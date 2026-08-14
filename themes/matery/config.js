@@ -25,8 +25,8 @@ const CONFIG = {
   MATERY_MENU_SEARCH: true, // 显示搜索
 
   MATERY_POST_LIST_COVER: true, // 文章封面
-  MATERY_POST_LIST_SUMMARY: true, // 文章摘要
-  MATERY_POST_LIST_PREVIEW: true, // 读取文章预览
+  MATERY_POST_LIST_SUMMARY: false, // 文章摘要
+  MATERY_POST_LIST_PREVIEW: false, // 读取文章预览
 
   MATERY_ARTICLE_ADJACENT: false, // 显示上一篇下一篇文章推荐
   MATERY_ARTICLE_COPYRIGHT: false, // 文章版权声明：true 全部显示；false 全部关闭；custom 仅填写 copyright 时显示
