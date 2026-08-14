@@ -64,6 +64,11 @@ const Style = () => {
 color: #ffffff;
 }
 
+/* 导航栏内所有文字和图标都变白（包括标题、搜索图标等） */
+#sticky-nav * {
+    color: #ffffff;
+}
+
 /* 统一修改导航菜单所有文字颜色为白色 */
 .menu-link {
 color: #ffffff;
