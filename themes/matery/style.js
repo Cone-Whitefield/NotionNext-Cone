@@ -59,15 +59,18 @@ const Style = () => {
     background-color: #CEE87C;
 }
 
-/* 导航栏标题文字颜色改为白色-deepseek */
-.text-lg.p-1\.5.rounded.dark\:border-white.hover\:scale-110.transform.duration-200 {
-color: #ffffff;
-}
 
-/* 导航栏内所有文字和图标都变白（包括标题、搜索图标等） */
-#sticky-nav * {
+/* 网站标题（“lzzd略”）变白 */
+.text-lg.p-1\.5.rounded.dark\:border-white.hover\:scale-110.transform.duration-200 {
     color: #ffffff;
 }
+
+/* 搜索图标变白 */
+.fa-magnifying-glass {
+    color: #ffffff;
+}
+
+
 
 /* 统一修改导航菜单所有文字颜色为白色 */
 .menu-link {
