@@ -60,10 +60,11 @@ const Style = () => {
 }
 
 
-/* 网站标题（“lzzd略”）变白 */
-.text-lg.p-1\.5.rounded.dark\:border-white.hover\:scale-110.transform.duration-200 {
+/* 强制网站标题变白 */
+#sticky-nav .text-lg {
     color: #ffffff !important;
 }
+
 
 /* 搜索图标变白 */
 .fa-magnifying-glass {
