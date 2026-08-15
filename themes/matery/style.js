@@ -93,6 +93,12 @@ const Style = () => {
     display: none !important;
 }
 
+/* 隐藏用户图标 */
+.fa-user {
+    display: none !important;
+}
+
+
 
 
 
