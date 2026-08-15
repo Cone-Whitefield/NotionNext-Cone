@@ -79,14 +79,20 @@ const Style = () => {
 
 /* 隐藏打字光标 */
 .typed-cursor {
-    display: none !important;
+    display: none;
 }
 
 /* 隐藏站点统计（PV 和 UV） */
 .busuanzi_container_site_pv,
 .busuanzi_container_site_uv {
-    display: none !important;
+    display: none;
 }
+
+/* 隐藏文章页浏览量（PV） */
+.busuanzi_container_page_pv {
+    display: none;
+}
+
 
 
 
