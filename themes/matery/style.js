@@ -82,7 +82,11 @@ const Style = () => {
     display: none !important;
 }
 
-
+/* 隐藏站点统计（PV 和 UV） */
+.busuanzi_container_site_pv,
+.busuanzi_container_site_uv {
+    display: none !important;
+}
 
 
 
