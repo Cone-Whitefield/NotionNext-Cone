@@ -11,7 +11,7 @@ const Style = () => {
     <style jsx global>{`
       // 底色
       body {
-        background-color: #000000;
+        background-color: #f5f5f5;
       }
       .dark body {
         background-color: black;
