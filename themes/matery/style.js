@@ -77,6 +77,10 @@ const Style = () => {
     display: none;
 }
 
+/* 隐藏打字光标 */
+.typed-cursor {
+    display: none !important;
+}
 
 
 
