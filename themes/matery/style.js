@@ -85,12 +85,12 @@ const Style = () => {
 /* 隐藏站点统计（PV 和 UV） */
 .busuanzi_container_site_pv,
 .busuanzi_container_site_uv {
-    display: none;
+    display: none !important;
 }
 
 /* 隐藏文章页浏览量（PV） */
 .busuanzi_container_page_pv {
-    display: none;
+    display: none !important;
 }
 
 
