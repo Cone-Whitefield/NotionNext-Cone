@@ -72,6 +72,16 @@ const Style = () => {
 }
 
 
+/* 隐藏 id 为 typed 的元素 */
+#typed {
+    display: none;
+}
+
+
+
+
+
+
 
 /* 统一修改导航菜单所有文字颜色为白色 */
 .menu-link {
